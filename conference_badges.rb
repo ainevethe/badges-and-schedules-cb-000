@@ -26,6 +26,6 @@ rooms = []
 end
 
 def printer(attendees)
-  batch_badge_creator(speakers).each
+  batch_badge_creator(speakers)
   assign_rooms(speakers)
 end
