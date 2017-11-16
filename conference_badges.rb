@@ -12,6 +12,8 @@ speakers.each_with_index { | speaker |
 
 room[speaker] = rooms
 
+puts "Hello #{speaker}! You'll be assigned to room #{rooms}"
+
 }
 
 end
