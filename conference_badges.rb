@@ -20,7 +20,7 @@ rooms = []
   speakers.each_with_index do |speaker, index|
     room = index + 1
 
-    rooms.push("Hello, #{speaker}!  You'll be assigned to room #{room}")
+    rooms.push("Hello, #{speaker}! You'll be assigned to room #{room}")
   end
   return rooms
 end
