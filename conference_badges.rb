@@ -14,6 +14,4 @@ room[speaker] = rooms
 
 }
 
-
-
 end
