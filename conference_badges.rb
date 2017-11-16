@@ -6,18 +6,17 @@ end
 
 
 def batch_badge_creator
-
+  attendees = []
 
 end
 
 
 def assign_rooms(speakers)
 
-rooms = [1, 2, 3, 4, 5, 6, 7]
+rooms = []
 
-speakers.each_with_index { | speaker, rooms |
-  puts rooms[speaker]
-
+speakers.each do |speaker|
+  
 }
 
 end
