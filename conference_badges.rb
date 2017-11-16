@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(speakers)
   attendees = []
-  speakers.each {|speaker| attendees << attendee(speaker)}
+  speakers.each {|speaker| attendees << attendees(speaker)}
   attendees
 end
 
