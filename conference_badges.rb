@@ -6,9 +6,9 @@ end
 
 
 def batch_badge_creator(speakers)
-  attendees = []
-  speakers.each {|speaker| attendees << attendees(speaker)}
-  attendees
+  badges = []
+  speakers.each do |speaker|
+  badges.push("Hello, my name is #{speaker}")
 end
 
 
