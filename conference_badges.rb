@@ -16,8 +16,5 @@ def assign_rooms(speakers)
 
 rooms = []
 
-speakers.each do |speaker|
-
-}
 
 end
