@@ -21,5 +21,6 @@ rooms = []
     room = index + 1
 
     rooms.push("Hello, #{speaker}!  You'll be assigned to room #{room}")
-
+  end
+  return rooms
 end
