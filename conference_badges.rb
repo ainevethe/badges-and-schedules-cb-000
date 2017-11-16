@@ -6,6 +6,14 @@ end
 
 def assign_rooms(speakers)
 
-rooms = [1..7]
+rooms = []
+
+speakers.each_with_index { | speaker |
+
+room[speaker] = rooms
+
+}
+
+
 
 end
