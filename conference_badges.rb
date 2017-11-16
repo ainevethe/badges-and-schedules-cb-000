@@ -25,7 +25,7 @@ rooms = []
   return rooms
 end
 
-def printer
+def printer(attendees)
   puts batch_badge_creator(speakers)
   assign_rooms.each do |assignment|
     puts assignment
